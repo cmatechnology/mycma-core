@@ -1,5 +1,11 @@
 Function Hello-World {
-    Write-Host "Hello World 123"
+    param(
+        [String] $Name,
+        [String] $Version
+    )
+
+    Write-Host "Splat Test Name: $Name Version $Version"
+    
 }
 
 
