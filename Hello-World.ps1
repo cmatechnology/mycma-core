@@ -4,7 +4,7 @@ Function Hello-World {
         [String] $Version
     )
 
-    Write-Host "Splat Test Name: $Name Version $Version"
+    Write-Host "Splat Test Name: $Name Version $Version Branch Test"
     
 }
 
