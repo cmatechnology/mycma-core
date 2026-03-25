@@ -11,8 +11,9 @@
           "description": "Customer Account Code. Leave empty or null to retrieve accounts without a specific code filter."
         }
       },
+      "required": [],
       "additionalProperties": false
     },
-    "strict": true
+    "strict": false
   }
 }
