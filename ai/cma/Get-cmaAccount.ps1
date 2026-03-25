@@ -18,7 +18,7 @@ Function Get-cmaAccount {
 
     $url =  "/api/cma/account?code=$Code"
 
-    $response = Invoke-cmaRequest -Method Get -Uri $url 
+    $response = Invoke-cmaRequest1 -Method Get -Uri $url 
 
     return $response
 }
