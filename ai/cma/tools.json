@@ -1,7 +1,7 @@
 {
   "type": "function",
   "function": {
-    "name": "_ai_cma_Get-cmaAccount.ps1",
+    "name": "ai_cma_Get-cmaAccount.ps1",
     "description": "Get the list of system ids for a customer account. This function retrieves the unique identifiers used to identify a customer in various third-party systems. The Account record stores these IDs for the customer.",
     "parameters": {
       "type": "object",
