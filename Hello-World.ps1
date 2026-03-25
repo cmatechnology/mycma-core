@@ -3,8 +3,9 @@ Function Hello-World {
         [String] $Name,
         [String] $Version
     )
-
-    Write-Host "Splat Test Name: $Name Version $Version Main Branch"
+    $msg = "Splat Test Name: $Name Version $Version Main Branch"
+    Write-Host $msg
+    return $msg
     
 }
 
