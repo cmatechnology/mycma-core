@@ -16,6 +16,8 @@ Function Get-cmaAccount {
         [Parameter(Mandatory=$false)] [String] $Code
     )
 
+    $Code = $Code.ToLower()
+
     $url =  "/api/cma/account?code=$Code"
 
     $response = Invoke-cmaRequest1 -Method Get -Uri $url 
